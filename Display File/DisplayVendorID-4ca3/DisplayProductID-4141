@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayProductID</key>
+	<integer>40980</integer>
+	<key>DisplayVendorID</key>
+	<integer>1552</integer>
+	<key>IODisplayEDID</key>
+	<data>
+	AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEB
+	AQEBgxkAQFAgCjAQIBMAS88QAAAZAAAA/ABDb2xvciBMQ0QKICAgAAAA/gBTQU1TVU5H
+	CiAgICAgAAAA/gBMVE4xMjFXMS1MMDMKAMY=
+	</data>
+	<key>scale-resolutions</key>
+	<array>
+		<data>
+		AAAFAAAAAyAAAAABACAAAA==
+		</data>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,215 @@
+HdaCodecDump Start
+Codec: Analog Devices AD1986A
+Address: 0
+AFG Function Id: 0x1 (unsol 0)
+Vendor ID: 0x11D41986
+Revision ID: 0x00100500
+Default PCM:
+    rates [0x007F]: 8000 11025 16000 22050 32000 44100 48000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+Default Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+Node 0x02 [Audio Output] wcaps 0x00030311: Stereo Digital
+  Connection: 2
+     0x01 0x06
+Node 0x03 [Audio Output] wcaps 0x0000044D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97 0x97]
+Node 0x04 [Audio Output] wcaps 0x0000040D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x9F 0x9F]
+Node 0x05 [Audio Output] wcaps 0x0000040D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x9F 0x9F]
+Node 0x06 [Audio Input] wcaps 0x00100511: Stereo
+  Connection: 1
+     0x12
+Node 0x07 [Audio Mixer] wcaps 0x00200101: Stereo
+  Connection: 8
+     0x03 0x09 0x13 0x14 0x15 0x16 0x17 0x18
+Node 0x08 [Audio Mixer] wcaps 0x00200100: Mono
+  Connection: 1
+     0x07
+Node 0x09 [Audio Mixer] wcaps 0x0020010E: Mono Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80] [0x80]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Connection: 2
+     0x04 0x05
+Node 0x0A [Audio Selector] wcaps 0x00300101: Stereo
+  Connection: 3
+     0x07 0x04 0x05
+Node 0x0B [Audio Selector] wcaps 0x00300101: Stereo
+  Connection: 2
+     0x07 0x04
+Node 0x0C [Audio Selector] wcaps 0x00300101: Stereo
+  Connection: 2
+     0x04 0x07
+Node 0x0D [Audio Selector] wcaps 0x00300101: Stereo
+  Connection: 2
+     0x05 0x08
+Node 0x0E [Audio Selector] wcaps 0x00300100: Mono
+  Connection: 2
+     0x08 0x11
+Node 0x0F [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-Out vals: [0x00 0x00]
+  Connection: 8
+     0x1F 0x20 0x1D 0x1D 0x27 0x28 0x29 0x2A
+Node 0x10 [Audio Selector] wcaps 0x00300101: Stereo
+  Connection: 3
+     0x20 0x1C 0x1F
+Node 0x11 [Audio Selector] wcaps 0x00300941: Stereo R/L
+  Connection: 2
+     0x0F 0x2B
+Node 0x12 [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x0F, stepsize=05, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Connection: 8
+     0x11 0x22 0x00 0x21 0x10 0x07 0x08 0x23
+Node 0x13 [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97 0x97]
+  Connection: 1
+     0x11
+Node 0x14 [Audio Selector] wcaps 0x0030010C: Mono Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97]
+  Connection: 1
+     0x23
+Node 0x15 [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x16 [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97 0x97]
+  Connection: 1
+     0x21
+Node 0x17 [Audio Selector] wcaps 0x0030010D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x97 0x97]
+  Connection: 1
+     0x10
+Node 0x18 [Audio Selector] wcaps 0x0030010C: Mono Amp-Out
+  Amp-Out caps: ofs=0x0F, nsteps=0x0F, stepsize=0B, mute=1
+  Amp-Out vals: [0x8F]
+  Connection: 2
+     0x19 0x24
+Node 0x19 [Beep Generator Widget] wcaps 0x00700000: Mono
+Node 0x1A [Pin Complex] wcaps 0x00400185: Stereo Amp-Out
+  Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x1F 0x1F]
+  Pincap 0x0000001F: OUT HP Trigger Detect
+  Pin Default 0x0221401F: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Green
+    DefAssociation = 0x1, Sequence = 0xF
+  Pin-ctls: 0xC0: OUT HP
+  Connection: 1
+     0x0A
+Node 0x1B [Pin Complex] wcaps 0x00400185: Stereo Amp-Out
+  Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x1F 0x1F]
+  Pincap 0x0001001F: OUT HP EAPD Trigger Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x91174110: [Fixed] Speaker at Int Rear
+    Conn = Analog, Color = Green
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0B
+Node 0x1C [Pin Complex] wcaps 0x00400185: Stereo Amp-Out
+  Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x9F 0x9F]
+  Pincap 0x00000037: IN OUT Trigger Detect
+  Pin Default 0x410130F0: [None] Line Out at Ext Rear
+    Conn = 1/8, Color = Blue
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x1D [Pin Complex] wcaps 0x00400985: Stereo Amp-Out R/L
+  Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x9F 0x9F]
+  Pincap 0x00001737: IN OUT Trigger Detect
+  Pin Default 0x410190F0: [None] Line Out at Ext Rear
+    Conn = 1/8, Color = Pink
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0D
+Node 0x1E [Pin Complex] wcaps 0x00400104: Mono Amp-Out
+  Amp-Out caps: ofs=0x1F, nsteps=0x1F, stepsize=05, mute=1
+  Amp-Out vals: [0x9F]
+  Pincap 0x00000010: OUT
+  Pin Default 0x511711F0: [None] Speaker at Int Rear
+    Conn = Analog, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0E
+Node 0x1F [Pin Complex] wcaps 0x00400081: Stereo
+  Pincap 0x00001727: IN Trigger Detect
+  Pin Default 0x02A19020: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Pink
+    DefAssociation = 0x2, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x20 [Pin Complex] wcaps 0x00400081: Stereo
+  Pincap 0x00001727: IN Trigger Detect
+  Pin Default 0x418130F0: [None] Line In at Ext Rear
+    Conn = 1/8, Color = Blue
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x21 [Pin Complex] wcaps 0x00400081: Stereo
+  Pincap 0x00000027: IN Trigger Detect
+  Pin Default 0x5997E1F0: [None] Aux at Int Special
+    Conn = Analog, Color = White
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x22 [Pin Complex] wcaps 0x00400001: Stereo
+  Pincap 0x00000020: IN
+  Pin Default 0x593311F0: [None] CD at Int Special
+    Conn = ATAPI, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x23 [Pin Complex] wcaps 0x00400000: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x59B771F0: [None] Telephone at Int Special
+    Conn = Analog, Color = Yellow
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x24 [Pin Complex] wcaps 0x00400000: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x51F711F0: [None] Other at Int Rear
+    Conn = Analog, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x25 [Pin Complex] wcaps 0x00400301: Stereo Digital
+  Pincap 0x00000010: OUT
+  Pin Default 0x0145F1F0: [Jack] SPDIF Out at Ext Rear
+    Conn = Optical, Color = Other
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x02
+Node 0x26 [Power Widget] wcaps 0x00500500: Mono
+  Connection: 8
+     0x07 0x08 0x13 0x14 0x15 0x16 0x17 0x18
+Node 0x27 [Audio Mixer] wcaps 0x00200101: Stereo
+  Connection: 2
+     0x1F 0x1D
+Node 0x28 [Audio Mixer] wcaps 0x00200101: Stereo
+  Connection: 2
+     0x1F 0x20
+Node 0x29 [Audio Mixer] wcaps 0x00200101: Stereo
+  Connection: 2
+     0x1D 0x20
+Node 0x2A [Audio Mixer] wcaps 0x00200101: Stereo
+  Connection: 3
+     0x1F 0x1D 0x20
+Node 0x2B [Audio Mixer] wcaps 0x00200100: Mono
+  Connection: 1
+     0x0F

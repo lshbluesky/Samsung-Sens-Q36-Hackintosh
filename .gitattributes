@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Change repository language
+*.dsl linguist-detectable=true
+*.plist linguist-detectable=false
+*.rtf linguist-detectable=false

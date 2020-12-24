@@ -1,0 +1,12 @@
+
+
+
+OSInstall.mpkg replace to
+
+/System/Installation/Packages/OSInstall.mpkg
+
+
+
+OSInstall replace to
+
+/System/Library/PrivateFrameworks/Install.framework/Frameworks/OSInstall.framework/Versions/A/OSInstall

@@ -1,0 +1,18 @@
+
+
+
+
+Works under Mac OS X.
+1. Restore BaseSystem.dmg to HFS partition.
+2. Copy InstallESD.dmg/mach_kernel to (HFS partition) BaseSystem.dmg/mach_kernel
+3. Remove (HFS partition) BaseSystem.dmg/System/Installation/Packages
+4. Copy InstallESD.dmg/Packages to (HFS partition) BaseSystem.dmg/System/Installation/Packages
+
+5. 
+OSInstall.mpkg replace to
+    /System/Installation/Packages/OSInstall.mpkg
+
+OSInstall replace to
+    /System/Library/PrivateFrameworks/Install.framework/Frameworks/OSInstall.framework/Versions/A/OSInstall
+
+6. Boot to (HFS partition) BaseSystem.dmg to install Mac OS X.

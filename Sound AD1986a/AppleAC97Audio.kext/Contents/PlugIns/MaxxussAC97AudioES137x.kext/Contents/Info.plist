@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MaxxussAC97AudioES137x</string>
+	<key>CFBundleIdentifier</key>
+	<string>maxxuss.driver.AC97AudioES137x</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>MaxxussAC97AudioES137x</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>maxxuss.driver.AC97AudioES137x</string>
+			<key>IOClass</key>
+			<string>maxxuss_driver_AC97AudioES137x</string>
+			<key>IOPCIMatch</key>
+			<string>0x13711274 0x89381102 0x58801274 0x13713274 0x50001274</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.driver.AppleAC97Audio</key>
+		<string>1.0.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1</string>
+	</dict>
+</dict>
+</plist>

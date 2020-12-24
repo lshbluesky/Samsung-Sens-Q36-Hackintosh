@@ -1,0 +1,7 @@
+Codec: LSI Si3054
+Address: 1
+MFG Function Id: 0x2 (unsol 1)
+Vendor Id: 0x11c13026
+Subsystem Id: 0x2117144d
+Revision Id: 0x100700
+Modem Function Group: 0x1

@@ -1,0 +1,38 @@
+50:460  1:494  Found BIOS RSDP at F7350
+50:460  0:000  Saving ACPI tables from RSDP F7350 to EFI\CLOVER\ACPI\origin ...
+50:460  0:000   F7350: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+50:460  0:000    (Rsdt: 9F69511F)
+50:460  0:000    9F69511F: 'RSDT', 'LH43STAR', Rev: 1, Len: 76
+50:460  0:000    Tables in Rsdt: 10
+50:460  0:000    0. 9F69ACAA: 'FACP', 'CALISTGA', Rev: 1, Len: 116
+50:460  0:000        (Dsdt: 9F696A1A, Facs: 9F69BFC0)
+50:460  0:000        9F696A1A: 'DSDT', 'CALISTGA', Rev: 1, Len: 17040
+50:460  0:000        9F69BFC0: 'FACS', Ver: 0, Len: 64
+50:460  0:000    1. 9F69AD1E: 'APIC', 'CALISTGA', Rev: 1, Len: 104
+50:460  0:000    2. 9F69AD86: 'HPET', 'CALISTGA', Rev: 1, Len: 56
+50:460  0:000    3. 9F69ADBE: 'MCFG', 'CALISTGA', Rev: 1, Len: 60
+50:460  0:000    4. 9F69ADFA: 'APIC', '	 APIC  ', Rev: 1, Len: 104
+50:460  0:000    5. 9F69AE62: 'BOOT', '$SBFTBL$', Rev: 1, Len: 40
+50:460  0:000    6. 9F69AE8A: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+50:460  0:000    7. 9F6963CB: 'SSDT', 'SataPri', Rev: 1, Len: 1615
+50:460  0:000    8. 9F695D39: 'SSDT', 'SataSec', Rev: 1, Len: 1682
+50:460  0:000    9. 9F69516B: 'SSDT', 'CpuPm', Rev: 1, Len: 1270
+50:460  0:000  Found UEFI Acpi 2.0 RSDP at 9F306000
+50:460  0:000  Printing ACPI tables from RSDP 9F306000 ...
+50:460  0:000   9F306000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+50:460  0:000    (Rsdt: 9F69511F)
+50:460  0:000    9F69511F: 'RSDT', 'LH43STAR', Rev: 1, Len: 76
+50:460  0:000    Tables in Rsdt: 10
+50:460  0:000    0. 9F69ACAA: 'FACP', 'CALISTGA', Rev: 1, Len: 116
+50:460  0:000        (Dsdt: 9F696A1A, Facs: 9F69BFC0)
+50:460  0:000        9F696A1A: 'DSDT', 'CALISTGA', Rev: 1, Len: 17040
+50:461  0:000        9F69BFC0: 'FACS', Ver: 0, Len: 64
+50:461  0:000    1. 9F69AD1E: 'APIC', 'CALISTGA', Rev: 1, Len: 104
+50:461  0:000    2. 9F69AD86: 'HPET', 'CALISTGA', Rev: 1, Len: 56
+50:461  0:000    3. 9F69ADBE: 'MCFG', 'CALISTGA', Rev: 1, Len: 60
+50:461  0:000    4. 9F69ADFA: 'APIC', '	 APIC  ', Rev: 1, Len: 104
+50:461  0:000    5. 9F69AE62: 'BOOT', '$SBFTBL$', Rev: 1, Len: 40
+50:461  0:000    6. 9F69AE8A: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+50:461  0:000    7. 9F6963CB: 'SSDT', 'SataPri', Rev: 1, Len: 1615
+50:461  0:000    8. 9F695D39: 'SSDT', 'SataSec', Rev: 1, Len: 1682
+50:461  0:000    9. 9F69516B: 'SSDT', 'CpuPm', Rev: 1, Len: 1270
