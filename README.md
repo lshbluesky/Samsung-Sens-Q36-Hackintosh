@@ -1,10 +1,10 @@
 # Samsung Sens Q36 Hackintosh
 
-## System Specification
+## ❄️ System Specification
 | Laptop | Samsung Sens Q36 (NT-Q36CR0H) |
 | - | - |
 | CPU | Intel Merom Core 2 Duo T5600 1.83 GHz |
-| Chipset | Intel 945GM + ICH7-M |
+| Chipsets | Intel 945GM + ICH7-M |
 | Graphics | Intel GMA 950 |
 | Memory | DDR2 PC2-5300 667 MHz 512 MB + 2 GB |
 | Sound | Analog Devices SoundMAX AD1986a |
@@ -13,7 +13,7 @@
 | TouchPad | Synaptics PS/2 TouchPad |
 | BIOS | Phoenix BIOS Ver 26SD |
 
-## Installed Mac OS Version
+## 🍃 Installed Mac OS Version
 - Mac OS X Snow Leopard 10.6.8
 - Mac OS X Lion 10.7.5
 - OS X Mountain Lion 10.8.5 (MLPostFactor)
