@@ -16,21 +16,166 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Fake EC Device Injection</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>SSDT-EC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Battery Fix</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BATT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PNLF Device Injection</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PNLF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>BIOS Reset and RTC Fix</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RTC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Darwin OS Check Fix (Windows Vista)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-OSYS.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable SMBus and MCHC Devices</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Battery : Rename Method(_BIF, 0) to Method(XBIF, 0), pair with SSDT-BATT.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0JJRgA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WEJJRgA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Battery : Rename Method(_BST, 0) to Method(XBST, 0), pair with SSDT-BATT.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0JTVAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WEJTVAA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Battery : Rename Method(_PTS, 1) to Method(XPTS, 1), pair with SSDT-BATT.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1BUUwE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBUUwE=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Battery : Rename Method(_WAK, 1) to Method(XWAK, 1), pair with SSDT-BATT.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1dBSwE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFdBSwE=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
-			<true/>
+			<false/>
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
@@ -44,6 +189,8 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
+		<array/>
+		<key>Patch</key>
 		<array/>
 		<key>Quirks</key>
 		<dict>
@@ -76,7 +223,7 @@
 			<key>ProvideMaxSlide</key>
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
-			<false/>
+			<true/>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
@@ -276,24 +423,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CPUi.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CPUi</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>AppleACPIPS2Nub.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -408,20 +537,41 @@
 			<key>Cpuid1Mask</key>
 			<data></data>
 			<key>DummyPowerManagement</key>
-			<true/>
+			<false/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AppleIntelCPUPowerManagementClient.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleIntelCPUPowerManagementClient</string>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleIntelCPUPowerManagementClient</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<false/>
 			<key>AppleXcpmExtraMsrs</key>
@@ -851,7 +1001,7 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
-			<true/>
+			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
