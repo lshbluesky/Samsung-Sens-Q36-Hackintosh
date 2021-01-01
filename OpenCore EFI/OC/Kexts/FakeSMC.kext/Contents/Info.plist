@@ -203,7 +203,7 @@
 				<key>debug</key>
 				<false/>
 				<key>smc-compatible</key>
-				<string>smc-mcp</string>
+				<string>smc-napa</string>
 				<key>trace</key>
 				<false/>
 			</dict>
