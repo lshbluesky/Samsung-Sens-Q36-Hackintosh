@@ -13,7 +13,7 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddPNLF_1000000</key>
-				<true/>
+				<false/>
 				<key>DeleteUnused_400000</key>
 				<true/>
 				<key>FIX_TMR_40000</key>
