@@ -18,6 +18,10 @@
 - Mac OS X Lion 10.7.5
 - OS X Mountain Lion 10.8.5 (MLPostFactor)
 
+## ⚠️ Issues
+- OpenCore does not support C & P States Generation of Intel Merom Core 2 Duo T5600 CPU.
+  - For this reason, Intel Merom Core 2 Duo T5600 CPU must use Chameleon or Clover for Speed Step to work.
+
 ## ✅ Working
 - Intel GMA 950 QE/CI
 - Intel GMA 950 External Display Extended Output
