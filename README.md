@@ -8,7 +8,7 @@
 | Graphics | Intel GMA 950 |
 | Memory | DDR2 PC2-5300 667 MHz 512 MB + 2 GB |
 | Sound | Analog Devices SoundMAX AD1986a |
-| Ethernet | Broadom 440x 10/100 Integrated Controller |
+| Ethernet | Broadcom 440x 10/100 Integrated Controller |
 | Wi-Fi | Intel PRO/Wireless 3945ABG Network Connection |
 | TouchPad | Synaptics PS/2 TouchPad |
 | BIOS | Phoenix BIOS Ver 26SD |
