@@ -1,4 +1,4 @@
-# Samsung Sens Q36 Hackintosh
+# 🍗 Samsung Sens Q36 Hackintosh 🦁
 
 ## ❄️ System Specification
 | Laptop | Samsung Sens Q36 (NT-Q36CR0H) |
