@@ -13,10 +13,14 @@
 | TouchPad | Synaptics PS/2 TouchPad |
 | BIOS | Phoenix BIOS Ver 26SD |
 
-## 🍃 Installed Mac OS Version
+## 🍃 Installed Mac OS Versions
 - Mac OS X Snow Leopard 10.6.8
 - Mac OS X Lion 10.7.5
 - OS X Mountain Lion 10.8.5 (MLPostFactor)
+
+## 🍀 Bootloader Versions
+- Clover v2.3k r3793
+- OpenCore r0.6.6
 
 ## ⚠️ Issues
 - OpenCore does not support C & P States Generation of Intel Merom Core 2 Duo T5600 CPU.
