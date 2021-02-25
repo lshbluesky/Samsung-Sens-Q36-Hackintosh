@@ -11,7 +11,7 @@
 | Ethernet | Broadcom 440x 10/100 Integrated Controller |
 | Wi-Fi | Intel PRO/Wireless 3945ABG Network Connection |
 | TouchPad | Synaptics PS/2 TouchPad |
-| BIOS | Phoenix BIOS Ver 26SD |
+| BIOS | Phoenix FirstBIOS ™ Notebook Pro Version 2.0 26SD |
 
 ## 🍃 Installed Mac OS Versions
 - Mac OS X Snow Leopard 10.6.8
