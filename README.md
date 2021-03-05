@@ -20,7 +20,7 @@
 
 ## 🍀 Bootloader Versions
 - Clover v2.3k r3793
-- OpenCore r0.6.6
+- OpenCore r0.6.7
 
 ## ⚠️ Issues
 - OpenCore does not support C & P States Generation of Intel Merom Core 2 Duo T5600 CPU.
