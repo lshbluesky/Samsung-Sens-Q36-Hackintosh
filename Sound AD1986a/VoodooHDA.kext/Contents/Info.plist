@@ -63,7 +63,7 @@
 			<key>MixerValues</key>
 			<dict>
 				<key>PCM</key>
-				<integer>80</integer>
+				<integer>70</integer>
 				<key>Rec</key>
 				<integer>90</integer>
 				<key>iGain</key>
