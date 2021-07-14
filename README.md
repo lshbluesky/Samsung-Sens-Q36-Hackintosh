@@ -20,11 +20,10 @@
 
 ## 🍀 Bootloader Versions
 - Clover v2.3k r3793
-- OpenCore r0.6.7
+- OpenCore r0.7.1
 
-## ⚠️ Issues
-- OpenCore does not support C & P States Generation of Intel Merom Core 2 Duo T5600 CPU.
-  - For this reason, Intel Merom Core 2 Duo T5600 CPU must use Chameleon or Clover for Speed Step to work.
+## ☕️ Note
+- As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works.
 
 ## ✅ Working
 - Intel GMA 950 QE/CI
