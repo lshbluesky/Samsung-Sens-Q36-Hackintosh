@@ -20,7 +20,7 @@
 
 ## 🍀 Bootloader Versions
 - Clover v2.3k r3793
-- OpenCore r0.7.1
+- OpenCore r0.7.5
 
 ## ☕️ Note
 - As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works.
