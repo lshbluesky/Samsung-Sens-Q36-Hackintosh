@@ -22,6 +22,11 @@
 - Clover v2.3k r3793
 - OpenCore r0.7.5
 
+## 🍂 Legacy Kexts
+- If you need legacy Kexts that were used in the past, please refer to the site below.
+  - Also, it is useful because there are some Kexts available for 32 Bit Kernel in OS X Lion 10.7.5 and below.
+- https://github.com/khronokernel/Legacy-Kexts
+
 ## ☕️ Note
 - As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works.
 
