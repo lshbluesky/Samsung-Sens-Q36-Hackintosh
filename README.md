@@ -34,6 +34,7 @@
 - Intel GMA 950 QE/CI
 - Intel GMA 950 External Display Extended Output
 - Analog Devices SoundMAX AD1986a
+- Speed Step & Power Management (AICPUPM)
 - Broadcom 440x 10/100 Ethernet
 - KeyBoard & TouchPad
 - Battery Percentage Indication
