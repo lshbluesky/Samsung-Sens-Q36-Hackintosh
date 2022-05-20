@@ -20,7 +20,8 @@
 
 ## 🍀 Bootloader Versions
 - Clover v2.3k r3793
-- OpenCore r0.7.5
+- OpenCore r0.8.0
+
 
 ## 🍂 Legacy Kexts
 - If you need legacy Kexts that were used in the past, please refer to the site below.
