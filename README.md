@@ -13,13 +13,15 @@
 | TouchPad | Synaptics PS/2 TouchPad |
 | BIOS | Phoenix FirstBIOS ™ Notebook Pro Version 2.0 26SD |
 
-## 🍃 Installed Mac OS Versions
+## 🍃 Installed Mac OS X Versions
 - Mac OS X Snow Leopard 10.6.8
 - Mac OS X Lion 10.7.5
-- OS X Mountain Lion 10.8.5 (MLPostFactor)
+- OS X Mountain Lion 10.8.5 (NexPostFacto)
 
 ## 🍀 Bootloader Versions
 - Clover v2.3k r3793
+- Clover v5.0 r5119
+  - Used with OS X Mountain Lion 10.8.5
 - OpenCore r0.8.5
 
 ## 🍂 Legacy Kexts
