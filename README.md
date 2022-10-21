@@ -33,19 +33,19 @@
 - As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works.
 
 ## ✅ Working
-- Intel GMA 950 QE/CI
-- Intel GMA 950 External Display Extended Output
-- Analog Devices SoundMAX AD1986a
-- Speed Step & Power Management (AICPUPM)
-- Broadcom 440x 10/100 Ethernet
-- KeyBoard & TouchPad
-- Battery Percentage Indication
-- Synaptics PS/2 TouchPad
-- Brigntness Control
-- Fn Keys
-- iCloud
+- [X] Intel GMA 950 QE/CI
+- [X] Intel GMA 950 External Display Extended Output
+- [X] Analog Devices SoundMAX AD1986a
+- [X] Speed Step & Power Management (AICPUPM)
+- [X] Broadcom 440x 10/100 Ethernet
+- [X] KeyBoard & TouchPad
+- [X] Battery Percentage Indication
+- [X] Synaptics PS/2 TouchPad
+- [X] Brigntness Control
+- [X] Fn Keys
+- [X] iCloud
 
 ## ❌ Not Working
-- Intel GMA 950 External Display Mirror Output
-- Intel PRO/Wireless 3945ABG Network Connection
-- Ricoh SD Card Reader
+- [ ] Intel GMA 950 External Display Mirror Output
+- [ ] Intel PRO/Wireless 3945ABG Network Connection
+- [ ] Ricoh SD Card Reader
