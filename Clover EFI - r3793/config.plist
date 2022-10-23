@@ -12,23 +12,15 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddPNLF_1000000</key>
-				<false/>
-				<key>DeleteUnused_400000</key>
-				<true/>
 				<key>FIX_TMR_40000</key>
 				<true/>
 				<key>FixHPET_0010</key>
 				<true/>
 				<key>FixIPIC_0040</key>
 				<true/>
-				<key>FixRegions_10000000</key>
-				<true/>
 				<key>FixSBUS_0080</key>
 				<true/>
 				<key>FixShutdown_0004</key>
-				<true/>
-				<key>NewWay_80000000</key>
 				<true/>
 			</dict>
 			<key>Name</key>
@@ -82,19 +74,14 @@
 		<dict>
 			<key>DropOem</key>
 			<false/>
-			<key>EnableC2</key>
-			<true/>
-			<key>EnableC4</key>
-			<true/>
-			<key>EnableC6</key>
-			<true/>
-			<key>EnableC7</key>
-			<true/>
 			<key>Generate</key>
-			<true/>
+			<dict>
+				<key>CStates</key>
+				<true/>
+				<key>PStates</key>
+				<true/>
+			</dict>
 		</dict>
-		<key>smartUPS</key>
-		<true/>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -117,12 +104,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>C2</key>
-		<true/>
-		<key>C4</key>
-		<true/>
-		<key>C6</key>
-		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -179,8 +160,6 @@
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
-		<key>Scan</key>
-		<true/>
 		<key>ScreenResolution</key>
 		<string>1280x800</string>
 		<key>Theme</key>
@@ -190,9 +169,6 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
-			<key>Custom</key>
-			<data>
-			</data>
 			<key>Inject</key>
 			<false/>
 		</dict>
@@ -213,7 +189,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>AsusAICPUPM</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
@@ -225,7 +201,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -275,7 +251,7 @@
 		<key>SmUUID</key>
 		<string>AB9CE5D9-E64D-4D2B-B585-1C3A2C3ECB62</string>
 		<key>Trust</key>
-		<false/>
+		<true/>
 		<key>Version</key>
 		<string>1.2</string>
 	</dict>
