@@ -1,5 +1,7 @@
 # 🍗 Samsung Sens Q36 Hackintosh 🦁
 
+![Screenshot](https://user-images.githubusercontent.com/61459016/201572384-14b09732-c7f1-43a2-9917-c749ab0c9861.png)
+
 ## ❄️ System Specification
 | Laptop | Samsung Sens Q36 (NT-Q36CR0H) |
 | - | - |
