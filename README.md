@@ -32,7 +32,7 @@
 - https://github.com/khronokernel/Legacy-Kexts
 
 ## ☕️ Note
-- As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works.
+- As I updated OpenCore to version 0.7.1, the detection of Intel older generation CPUs was added and Speed Step works. [Issue #1](https://github.com/lshbluesky/Samsung-Sens-Q36-Hackintosh/issues/1)
 
 ## ✅ Working
 - [X] Intel GMA 950 QE/CI
