@@ -24,7 +24,7 @@
 - Clover v2.3k r3793
 - Clover v5.0 r5119
   - Used with OS X Mountain Lion 10.8.5
-- OpenCore IA32 r0.9.4
+- OpenCore X64 r0.9.4
 
 ## 🍂 Legacy Kexts
 - If you need legacy Kexts that were used in the past, please refer to the site below.
