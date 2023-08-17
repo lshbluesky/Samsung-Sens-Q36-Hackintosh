@@ -2,6 +2,8 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/61459016/201572384-14b09732-c7f1-43a2-9917-c749ab0c9861.png)
 
+![Tiger](https://github.com/lshbluesky/Samsung-Sens-Q36-Hackintosh/assets/61459016/575da575-4dde-4712-9cdc-659a23fc45d2)
+
 ## ❄️ System Specification
 | Laptop | Samsung Sens Q36 (NT-Q36CR0H) |
 | - | - |
@@ -16,6 +18,7 @@
 | BIOS | Phoenix FirstBIOS ™ Notebook Pro Version 2.0 26SD |
 
 ## 🍃 Installed Mac OS X Versions
+- Mac OS X Tiger 10.4.11
 - Mac OS X Snow Leopard 10.6.8
 - Mac OS X Lion 10.7.5
 - OS X Mountain Lion 10.8.5 (NexPostFacto)
