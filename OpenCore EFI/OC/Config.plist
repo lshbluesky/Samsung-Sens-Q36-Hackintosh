@@ -1005,7 +1005,7 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>HfsPlus32.efi</string>
+				<string>HfsPlusLegacy.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
