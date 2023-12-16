@@ -155,7 +155,6 @@ Node 0x18 [Audio Selector] wcaps 0x30010c: Mono Amp-Out
   Connection: 2
      0x19* 0x24
 Node 0x19 [Beep Generator Widget] wcaps 0x700000: Mono
-
 Node 0x1a [Pin Complex] wcaps 0x400185: Stereo Amp-Out
   Control: name="Headphone Playback Volume", index=0, device=0
     ControlAmp: chs=3, dir=Out, idx=0, ofs=0
@@ -177,7 +176,7 @@ Node 0x1b [Pin Complex] wcaps 0x400185: Stereo Amp-Out
   Control: name="Speaker Playback Switch", index=0, device=0
     ControlAmp: chs=3, dir=Out, idx=0, ofs=0
   Amp-Out caps: ofs=0x1f, nsteps=0x1f, stepsize=0x05, mute=1
-  Amp-Out vals:  [0x1f 0x1f]
+  Amp-Out vals:  [0x1b 0x1b]
   Pincap 0x0001001f: OUT HP EAPD Detect Trigger ImpSense
   EAPD 0x0:
   Pin Default 0x91174110: [Fixed] Speaker at Int Rear
