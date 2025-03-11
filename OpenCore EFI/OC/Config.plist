@@ -208,6 +208,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<false/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
